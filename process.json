@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "weibo-rss",
-      "script": "node /root/weibo-rss/dist/app.js",
+      "script": "node ./dist/app.js",
       "watch": true,
       "env": {
         "PORT": "3000"
