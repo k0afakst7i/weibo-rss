@@ -42,7 +42,7 @@ export const createIndexAPI = () => {
         method: 'get',
         url: `https://m.weibo.cn/api/container/getIndex?type=uid&value=${uid}`,
         headers: {
-          'MWeibo-Pwa': 1,
+          'Mweibo-Pwa': 1,
           'Referer': `https://m.weibo.cn/u/${uid}`,
           'User-Agent': MOCK_UA,
           'X-Requested-With': 'XMLHttpRequest'
@@ -67,7 +67,7 @@ export const createIndexAPI = () => {
         method: 'get',
         url: `https://m.weibo.cn/api/container/getIndex?type=uid&value=${uid}&containerid=${containerId}`,
         headers: {
-          'MWeibo-Pwa': 1,
+          'Mweibo-Pwa': 1,
           'Referer': `https://m.weibo.cn/u/${uid}`,
           'User-Agent': MOCK_UA,
           'X-Requested-With': 'XMLHttpRequest'
